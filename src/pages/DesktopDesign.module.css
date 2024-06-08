@@ -1,0 +1,50 @@
+.desktopDesign,
+.frameParent,
+.navbarParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navbarParent {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.desktopDesign,
+.frameParent {
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1336px;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: 70.6px;
+  max-width: 100%;
+}
+.desktopDesign {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 0.5px;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 35px;
+  }
+  .desktopDesign {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+  .desktopDesign {
+    gap: var(--gap-xl);
+  }
+}

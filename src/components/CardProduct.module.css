@@ -1,0 +1,139 @@
+.cardProductChild,
+.unsplashg6wx5j5Dr8Icon {
+  position: relative;
+  border-radius: var(--br-3xs);
+}
+.cardProductChild {
+  align-self: stretch;
+  height: 371px;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.unsplashg6wx5j5Dr8Icon {
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  z-index: 1;
+}
+.unsplashg6wx5j5Dr8Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl);
+}
+.frameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.mieRamen {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 2;
+}
+.mieRamenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl);
+}
+.loremIpsum {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 2;
+}
+.loremIpsumWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl);
+  font-size: var(--body-medium-18-size);
+  color: var(--text-light);
+}
+.div,
+.topcoatlikeIcon {
+  position: relative;
+  z-index: 2;
+}
+.div {
+  width: 96px;
+  line-height: 23px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.topcoatlikeIcon {
+  height: 24px;
+  width: 24px;
+  border-radius: var(--br-3xs);
+  min-height: 24px;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--title2-size);
+}
+.cardProduct,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-self: stretch;
+  padding: var(--padding-sm) var(--padding-3xl) var(--padding-smi);
+  position: relative;
+  gap: var(--gap-6xs-5);
+}
+.cardProduct {
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  padding: var(--padding-smi) 0 0;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--headline-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .unsplashg6wx5j5Dr8Icon {
+    align-self: stretch;
+    height: auto;
+  }
+  .mieRamen {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    font-size: var(--body-medium-18-size);
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,33 @@
+.claritysignInLineIcon {
+  height: 17px;
+  width: 15px;
+  position: relative;
+}
+.signIn {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--button-size);
+  font-weight: 700;
+  font-family: var(--body-text);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 50px;
+}
+.claritysignInLineParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs-1) var(--padding-xl) var(--padding-3xs);
+  background-color: var(--primary);
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  white-space: nowrap;
+  z-index: 1;
+}
+.claritysignInLineParent:hover {
+  background-color: var(--color-goldenrod-100);
+}

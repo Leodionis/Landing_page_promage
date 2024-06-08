@@ -1,0 +1,19 @@
+.groupIcon {
+  width: 22.7px;
+  height: 18.5px;
+  position: relative;
+}
+.akarIconstwitterFill {
+  height: 48px;
+  width: 45px;
+  box-shadow: 0 4px 12px rgba(29, 29, 29, 0.15);
+  border-radius: var(--br-12xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}

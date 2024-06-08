@@ -1,0 +1,2530 @@
+.heroImage {
+  height: calc(100% - 18px);
+  width: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.02px;
+  bottom: 17.98px;
+  left: 28.32px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(180deg, #a4b8ff, #baddff 97.97%);
+  transform: rotate(33.7deg);
+  transform-origin: 0 0;
+}
+.promage {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  white-space: nowrap;
+  z-index: 1;
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.company,
+.developers,
+.pricing,
+.products {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.company,
+.developers,
+.pricing {
+  min-width: 57px;
+}
+.company,
+.developers {
+  min-width: 91px;
+}
+.company {
+  min-width: 77px;
+}
+.menuContainer,
+.sloganContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.menuContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.sloganContainer {
+  width: 477px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--body-medium-18-size);
+  color: var(--color-gray-500);
+  font-family: var(--font-roboto);
+}
+.signUp {
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+}
+.userActionButtons {
+  cursor: pointer;
+  border: 1.5px solid var(--color-royalblue-200);
+  padding: var(--padding-5xs) var(--padding-31xl) var(--padding-5xs)
+    var(--padding-56xl);
+  background-color: var(--color-royalblue-300);
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.userActionButtons1:hover,
+.userActionButtons:hover {
+  border: 1.5px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+}
+.userActionButtons:hover {
+  background-color: var(--color-royalblue-100);
+}
+.login {
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-royalblue-300);
+  text-align: center;
+  display: inline-block;
+  min-width: 50px;
+  white-space: nowrap;
+}
+.userActionButtons1 {
+  cursor: pointer;
+  border: 1.5px solid var(--color-royalblue-200);
+  padding: var(--padding-5xs) var(--padding-15xl);
+  background-color: var(--color-white);
+  width: 122px;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userActionButtons1:hover {
+  background-color: #e6e6e6;
+}
+.menu1Icon {
+  height: 60px;
+  width: 58px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.auth,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.auth {
+  width: 371px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.header {
+  width: 1228px;
+  height: 69px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 9.5px 0 var(--padding-2xs-5);
+  box-sizing: border-box;
+  position: relative;
+  gap: 87px;
+  max-width: 103%;
+}
+.manageAllYour,
+.oneAppTo {
+  position: relative;
+  display: inline-block;
+}
+.oneAppTo {
+  margin: 0;
+  width: 583px;
+  font-size: inherit;
+  letter-spacing: -2.5px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: inherit;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.manageAllYour {
+  width: 534px;
+  line-height: 150%;
+  max-width: 100%;
+}
+.primaryButton {
+  position: relative;
+  font-size: var(--body-medium-18-size);
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-white);
+  text-align: left;
+}
+.buttonLarge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl) var(--padding-29xl);
+  background-color: var(--color-royalblue-300);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttonLarge1:hover,
+.buttonLarge4:hover,
+.buttonLarge:hover {
+  background-color: var(--color-royalblue-100);
+}
+.productivitySubtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 256px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 2;
+  margin-top: -240px;
+  font-size: var(--title2-size);
+  color: var(--main-color);
+}
+.productivityDescription,
+.productivityDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productivityDescription {
+  align-self: stretch;
+  overflow: hidden;
+}
+.productivityDescriptionWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-46xl);
+  box-sizing: border-box;
+  min-width: 367px;
+  min-height: 524px;
+}
+.bodyChild {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 361px;
+}
+.body,
+.pageContent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.body {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 81px;
+  font-size: var(--font-size-45xl);
+  color: #000101;
+}
+.pageContent {
+  width: 1200.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-61xl);
+  z-index: 1;
+}
+.frameChild {
+  height: 69px;
+  width: 1241px;
+  display: none;
+  max-width: 100%;
+}
+.main,
+.pageContentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pageContentParent {
+  flex: 1;
+  background: linear-gradient(90deg, #f9fbff, #e9f2ff);
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-15xl) var(--padding-38xl) var(--padding-23xl);
+}
+.main {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 116px;
+  text-align: left;
+  font-size: var(--logo-bold-32-size);
+  color: var(--color-royalblue-300);
+  font-family: var(--body-medium-18);
+}
+.beAmongThe {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.teamsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl);
+}
+.teamImagePlaceholders,
+.teamImagePlaceholders1,
+.teamImagePlaceholders2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 80px;
+  min-height: 80px;
+}
+.emptyTeamImage {
+  align-self: stretch;
+  width: 183.1px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 79px;
+}
+.teamImages {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24.3px;
+}
+.features,
+.teamsContentParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.teamsContentParent {
+  width: 814.1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.features {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #536e96;
+  font-family: var(--body-medium-18);
+}
+.getWorkDone,
+.maximiseProductivity {
+  position: relative;
+  line-height: 29px;
+  font-weight: 700;
+}
+.getWorkDone {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 124%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.withProjectManagement {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 150%;
+}
+.getWorkDoneSimplerFasteParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.primaryButton1 {
+  position: relative;
+  font-size: var(--headline-size);
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 102px;
+}
+.buttonLarge1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-29xl);
+  background-color: var(--color-royalblue-300);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.maximizeDescription,
+.maximizeSubtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maximizeSubtitle {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+  font-size: var(--font-size-35xl);
+  color: var(--main-color);
+}
+.maximizeDescription {
+  position: absolute;
+  top: 157px;
+  left: 788px;
+  width: 490px;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.imagePlaceholder {
+  position: absolute;
+  top: -0.01px;
+  left: 375.34px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(
+    180deg,
+    rgba(164, 184, 255, 0.14),
+    rgba(186, 221, 255, 0.14) 97.97%
+  );
+  width: 500px;
+  height: 530.8px;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+.dashboard1Icon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(2.224);
+}
+.wrapperDashboard1 {
+  position: absolute;
+  top: 174px;
+  left: 113.1px;
+  border-radius: var(--br-xl);
+  width: 502px;
+  height: 380.7px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboardImage {
+  position: absolute;
+  top: 2.1px;
+  left: 68.9px;
+  width: 728.9px;
+  height: 728.9px;
+}
+.maximizeContent {
+  height: 703px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  max-width: 100%;
+}
+.maximizeContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 44px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-royalblue-300);
+  font-family: var(--body-medium-18);
+}
+.saasLndingPageChild {
+  width: 895.8px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+  z-index: 3;
+}
+.thePlatformsPlatform {
+  margin: 0;
+}
+.thePlatformsPlatformContainer {
+  width: 328px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  max-width: 100%;
+}
+.bringAllOf {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 124%;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: inherit;
+}
+.promageCanIntegrate {
+  width: 567px;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 150%;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  max-width: 100%;
+}
+.bringAllOfYourToolsIntoOParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameItem,
+.importImage {
+  background-color: var(--color-royalblue-300);
+}
+.importImage {
+  height: 4px;
+  width: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 2px);
+  left: 139px;
+  border-radius: 3px;
+}
+.frameItem {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(147, 147, 147, 0.15);
+  border-radius: 50%;
+}
+.empty {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7px;
+  z-index: 1;
+}
+.ellipseParent,
+.importPlaceholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.importPlaceholder {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  margin-left: -20px;
+}
+.ellipseParent {
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.import {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 75px;
+}
+.importAction,
+.importButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.importAction {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--headline-size);
+  color: #060606;
+}
+.importButton {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.b,
+.frameInner {
+  position: absolute;
+}
+.frameInner {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 15px rgba(147, 147, 147, 0.15);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.b {
+  top: 4px;
+  left: 12px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 11px;
+  z-index: 1;
+}
+.ellipseGroup {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.downloads {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 126px;
+}
+.downloadName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--headline-size);
+  color: var(--color-gray-400);
+}
+.downloadAction,
+.importActions,
+.importOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.downloadAction {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--color-dimgray-100);
+}
+.importActions,
+.importOptions {
+  max-width: 100%;
+}
+.importActions {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.importOptions {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.b1,
+.ellipseDiv {
+  position: absolute;
+}
+.ellipseDiv {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 12px rgba(147, 147, 147, 0.26);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.b1 {
+  top: 4px;
+  left: 12px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.ellipseContainer {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.clickapps {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 105px;
+}
+.clickAppNames,
+.clickAppOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clickAppNames {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--headline-size);
+  color: var(--color-gray-400);
+}
+.clickAppOptions {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 15px rgba(147, 147, 147, 0.14);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.b2 {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.frameDiv {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.clickapps1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 105px;
+}
+.clickappsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--headline-size);
+  color: var(--color-gray-400);
+}
+.clickAppOptions1,
+.clickAppOptionsParent,
+.importOptionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.clickAppOptionsParent,
+.importOptionsParent {
+  width: 434px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.importOptionsParent {
+  width: 455px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  font-size: var(--body-medium-18-size);
+  color: var(--color-white);
+}
+.primaryButton2 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--headline-size);
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-royalblue-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 102px;
+  white-space: nowrap;
+}
+.arrowIcon {
+  width: 24px;
+  height: 14.7px;
+  position: relative;
+}
+.buttonLargeInner {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.buttonLarge2,
+.buttonLargeInner,
+.integrations,
+.integrationsDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonLarge2 {
+  cursor: pointer;
+  border: 1px solid var(--color-royalblue-300);
+  padding: var(--padding-base) var(--padding-28xl) var(--padding-sm);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.integrations,
+.integrationsDescription {
+  flex-direction: column;
+  max-width: 100%;
+}
+.integrationsDescription {
+  align-self: stretch;
+  gap: 52px;
+}
+.integrations {
+  flex: 1;
+  padding: 34.5px 0 0;
+  box-sizing: border-box;
+}
+.slackTechnologiesLogo1Icon {
+  position: absolute;
+  top: 23px;
+  left: 25px;
+  width: 110px;
+  height: 38.8px;
+  object-fit: contain;
+}
+.slackLogos1 {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.slackTechnologiesLogo1Icon1 {
+  position: absolute;
+  top: 23px;
+  left: 25px;
+  width: 110px;
+  height: 38.8px;
+  object-fit: contain;
+}
+.slackTechnologiesLogo1Wrapper {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.slackLogos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.cef1014c0b5e49e81Icon {
+  position: absolute;
+  top: 27px;
+  left: 35px;
+  width: 90px;
+  height: 36px;
+  object-fit: contain;
+}
+.googleLogoPlaceholder {
+  height: 84px;
+  width: 160px;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.googleLogos,
+.logoRows {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.googleLogos {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.logoRows {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.c6bc0beee9410fe137d91e1Icon {
+  position: absolute;
+  top: 17px;
+  left: 30px;
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+.c6bc0beee9410fe137d91e1Wrapper {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.f98b51c2ec00048c6c731Icon {
+  position: absolute;
+  height: calc(100% - 24.2px);
+  top: 12px;
+  bottom: 12.2px;
+  left: 46px;
+  max-height: 100%;
+  width: 68px;
+  object-fit: contain;
+}
+.f98b51c2ec00048c6c731Wrapper {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.googleCalendarLogo1Icon {
+  position: absolute;
+  height: calc(100% - 28.1px);
+  top: 14px;
+  bottom: 14.1px;
+  left: 47px;
+  max-height: 100%;
+  width: 65px;
+  object-fit: contain;
+}
+.googleCalendarLogo1Wrapper {
+  height: 84px;
+  width: 160px;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoRows1,
+.logoRowsInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.logoRowsInner {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.logoRows1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.a768a6515b1e0ad75afd1Icon {
+  position: absolute;
+  top: 27px;
+  left: 25px;
+  width: 110px;
+  height: 30.8px;
+  object-fit: contain;
+}
+.downloadLogoPlaceholders {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.download11 {
+  position: absolute;
+  top: 21px;
+  left: 55px;
+  width: 50px;
+  height: 42.5px;
+  object-fit: contain;
+}
+.downloadLogoPlaceholders1 {
+  height: 84px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0, 73, 155, 0.08);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 104px;
+}
+.downloadLogos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.logoRowsParent,
+.platformContent,
+.thePlatformsPlatformParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logoRowsParent {
+  width: 348px;
+  flex-direction: column;
+  gap: 37px;
+  min-width: 348px;
+}
+.platformContent,
+.thePlatformsPlatformParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 134px;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-600);
+}
+.thePlatformsPlatformParent {
+  border-radius: 40px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-58xl) var(--padding-163xl) 82px;
+  box-sizing: border-box;
+  gap: 9.5px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-royalblue-300);
+  font-family: var(--body-medium-18);
+}
+.useCases1 {
+  width: 936px;
+  position: relative;
+  line-height: 65px;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.rectangleDiv {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-darkorange);
+  display: none;
+}
+.performanceIcon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-7xl);
+  background-color: var(--color-darkorange);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.employeeOnboarding {
+  position: relative;
+  line-height: 45px;
+  font-weight: 600;
+}
+.buildAScalable,
+.toSpeed {
+  margin: 0;
+}
+.buildAScalableContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 160%;
+  color: var(--color-dimgray-200);
+}
+.frameGroup,
+.userPerformance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userPerformance {
+  align-self: stretch;
+  gap: var(--gap-sm);
+}
+.frameGroup {
+  flex: 1;
+  box-shadow: 0 0 48px rgba(147, 147, 147, 0.04),
+    0 4px 54px rgba(230, 236, 255, 0.24);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-29xl) var(--padding-21xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 334px;
+  max-width: 100%;
+}
+.frameChild2 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-mediumseagreen);
+  display: none;
+}
+.userIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroup {
+  border-radius: var(--br-7xl);
+  background-color: var(--color-mediumseagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.performanceGoal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.trackEmployeePerformance {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 160%;
+  color: var(--color-darkslategray-100);
+}
+.performanceGoalTrackingParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.performanceGoalTrackingParent,
+.useCasePairs,
+.userPerformance1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.userPerformance1 {
+  flex: 1;
+  box-shadow: 0 0 48px rgba(147, 147, 147, 0.04),
+    0 4px 54px rgba(230, 236, 255, 0.24);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-21xl) var(--padding-34xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 334px;
+}
+.useCasePairs {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-29xl);
+}
+.frameChild3 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-goldenrod-200);
+  display: none;
+}
+.userIcon1 {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleContainer {
+  border-radius: var(--br-7xl);
+  background-color: var(--color-goldenrod-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.performanceGoal1 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.trackEmployeePerformance1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 160%;
+  color: var(--color-darkslategray-100);
+}
+.frameContainer,
+.performanceGoalTrackingGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.performanceGoalTrackingGroup {
+  align-self: stretch;
+  gap: var(--gap-sm);
+}
+.frameContainer {
+  flex: 1;
+  box-shadow: 0 0 48px rgba(147, 147, 147, 0.04),
+    0 4px 54px rgba(230, 236, 255, 0.24);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-29xl) var(--padding-21xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 334px;
+  max-width: 100%;
+}
+.frameChild4 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-mediumpurple);
+  display: none;
+}
+.performanceIcon1 {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupDiv {
+  border-radius: var(--br-7xl);
+  background-color: var(--color-mediumpurple);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.employeeOnboarding1 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.buildAScalable1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headline-size);
+  line-height: 160%;
+  color: var(--color-dimgray-200);
+}
+.employeeOnboardingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameParent1,
+.useCaseCards,
+.useCasePairs1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  box-shadow: 0 0 48px rgba(147, 147, 147, 0.04),
+    0 4px 54px rgba(230, 236, 255, 0.24);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-21xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 334px;
+}
+.useCaseCards,
+.useCasePairs1 {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+}
+.useCasePairs1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: var(--font-size-5xl);
+}
+.useCaseCards {
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-9xl);
+}
+.primaryButton3 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--headline-size);
+  font-weight: 600;
+  font-family: var(--body-medium-18);
+  color: var(--color-royalblue-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 102px;
+  white-space: nowrap;
+}
+.buttonContentChild {
+  height: 14.7px;
+  width: 24px;
+  position: relative;
+}
+.buttonContent,
+.buttonLarge3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonContent {
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-base);
+}
+.buttonLarge3 {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-royalblue-300);
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-28xl);
+}
+.useCases,
+.useCasesContent,
+.viewMoreButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewMoreButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-3xs);
+  background-color: transparent;
+  flex-direction: column;
+}
+.useCases,
+.useCasesContent {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.useCasesContent {
+  flex: 1;
+  background: linear-gradient(90deg, #fdfdff 14.06%, #fcfdfe);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 88px var(--padding-163xl) 73px;
+  gap: var(--gap-29xl);
+}
+.useCases {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 140px;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--main-color);
+  font-family: var(--body-medium-18);
+}
+.whatOurClients {
+  margin: 0;
+  width: 936px;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.quoteContentIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.companyInfo {
+  height: 374px;
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 385px;
+  max-width: 100%;
+}
+.quoteIcon {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 425px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.weWouldntHave {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 155%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.quoteIcon1 {
+  position: absolute;
+  top: 260px;
+  left: 274px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+.weWouldntHaveSuchGreatCoParent {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+}
+.kylerRose {
+  margin: 0;
+}
+.kylerRoseContainer {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  color: #030c24;
+  max-width: 100%;
+}
+.copyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.stars,
+.stars1,
+.stars2,
+.stars3,
+.stars4,
+.stars5 {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: 50%;
+}
+.stars {
+  background-color: #021a3c;
+}
+.stars1,
+.stars2,
+.stars3,
+.stars4,
+.stars5 {
+  background-color: var(--color-gainsboro-100);
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.resourcesLinks {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+  min-width: 382px;
+}
+.resourcesLinks,
+.teamworkButton,
+.testimonial {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonial {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 86px;
+  font-size: var(--logo-bold-32-size);
+  color: #042960;
+}
+.teamworkButton {
+  width: 1058px;
+  flex-direction: column;
+  gap: 42px;
+}
+.seeEverythingThe {
+  margin: 0;
+  width: 902px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 124%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.primaryButton4 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--body-medium-18);
+  color: var(--color-white);
+  text-align: left;
+}
+.buttonLarge4,
+.buttonLargeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buttonLarge4 {
+  cursor: pointer;
+  border: 0;
+  padding: 17.5px var(--padding-19xl);
+  background-color: var(--color-royalblue-300);
+  box-shadow: 0 4px 94px rgba(255, 255, 255, 0.1);
+  border-radius: var(--br-xs);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttonLargeWrapper {
+  width: 902px;
+  justify-content: center;
+  max-width: 100%;
+}
+.teamworkContent,
+.teamworkContentWrapper {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.teamworkContent {
+  flex: 1;
+  box-shadow: 0 4px 16px rgba(147, 147, 147, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(90.29deg, #011936, #012f63);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-60xl) var(--padding-xl) var(--padding-59xl);
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.teamworkContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  text-align: center;
+  font-size: var(--display-size);
+  color: var(--color-whitesmoke-100);
+}
+.clientName,
+.teamworkContentWrapper,
+.teamworkVisual {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.teamworkVisual {
+  width: 1077px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-110xl);
+}
+.clientName {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 181px var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-600);
+  font-family: var(--body-medium-18);
+}
+.frameChild5 {
+  height: 22.1px;
+  width: 24px;
+  left: 0;
+  object-fit: contain;
+}
+.frameChild5,
+.frameChild6,
+.vectorParent {
+  margin: 0 !important;
+  position: absolute;
+}
+.frameChild6 {
+  height: 22.1px;
+  width: 24px;
+  right: 0;
+}
+.vectorParent {
+  width: 1228px;
+  height: 0;
+  bottom: 1480px;
+  left: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1180px;
+  z-index: 1;
+}
+.bg {
+  align-self: stretch;
+  height: 550px;
+  position: relative;
+  background-color: var(--color-gray-300);
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+.logo {
+  height: 51px;
+  width: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 34.48px);
+  left: 28.32px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(180deg, #a4b8ff, #baddff 97.97%);
+  transform: rotate(33.7deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.promage1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  z-index: 2;
+}
+.logoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.yourNo1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  z-index: 1;
+}
+.contact,
+.hellopromagecom {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  z-index: 1;
+}
+.contact {
+  display: inline-block;
+  min-width: 70px;
+}
+.hellopromagecom {
+  font-size: var(--font-size-base);
+  white-space: nowrap;
+}
+.contactParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--headline-size);
+  font-family: var(--body-medium-18);
+}
+.yourNo1ProjectManagementTParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-manrope);
+}
+.frameParent4,
+.frameWrapper1,
+.yourNo1ProjectManagementTParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 21.5px;
+}
+.frameWrapper1 {
+  width: 347px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  min-width: 347px;
+  max-width: 100%;
+}
+.about,
+.blogs,
+.career,
+.company1,
+.faqs,
+.team {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 86px;
+}
+.about,
+.blogs,
+.career,
+.faqs,
+.team {
+  min-width: 44px;
+}
+.blogs,
+.career,
+.faqs,
+.team {
+  min-width: 39px;
+}
+.blogs,
+.career {
+  min-width: 41px;
+}
+.career {
+  min-width: 49px;
+}
+.companyLinks,
+.companyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyLinks {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.companyParent {
+  gap: var(--gap-xl);
+}
+.chat,
+.dashboard,
+.docs,
+.goals,
+.product,
+.tasks,
+.whiteboard {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.chat,
+.dashboard,
+.docs,
+.goals,
+.tasks,
+.whiteboard {
+  min-width: 40px;
+}
+.chat,
+.dashboard,
+.docs,
+.goals,
+.whiteboard {
+  min-width: 37px;
+}
+.chat,
+.dashboard,
+.goals,
+.whiteboard {
+  min-width: 41px;
+}
+.chat,
+.dashboard,
+.whiteboard {
+  min-width: 34px;
+}
+.dashboard,
+.whiteboard {
+  min-width: 84px;
+}
+.dashboard {
+  min-width: 79px;
+}
+.productLinks,
+.productParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productLinks {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.productParent {
+  gap: var(--gap-xl);
+}
+.quickStart,
+.resources {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 93px;
+}
+.quickStart {
+  min-width: 80px;
+}
+.libraries {
+  display: inline-block;
+  min-width: 62px;
+}
+.apiDocumentation,
+.libraries {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.resourcesLinks1 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.footerColumnTwo,
+.resourcesLinks1,
+.resourcesParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resourcesParent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.footerColumnTwo {
+  gap: 94px;
+  min-width: 497px;
+  z-index: 1;
+  font-size: var(--headline-size);
+  color: var(--color-darkslategray-100);
+}
+.footerColumnTwo,
+.frameParent3,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent3 {
+  width: 1076px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.border {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: #a5a5a5;
+  z-index: 1;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 110px;
+  max-width: 100%;
+}
+.promageAllRights {
+  margin: 0;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  z-index: 1;
+}
+.promageAllRightsReservedWrapper {
+  width: 751px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+}
+.footer,
+.saasLndingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  padding: var(--padding-47xl) 0 var(--padding-39xl);
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--logo-bold-32-size);
+  color: var(--color-royalblue-300);
+  font-family: var(--body-medium-18);
+}
+.saasLndingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .header {
+    gap: var(--gap-24xl);
+  }
+  .body {
+    gap: var(--gap-21xl);
+  }
+  .pageContentParent {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .logoRowsParent {
+    flex: 1;
+  }
+  .platformContent {
+    flex-wrap: wrap;
+  }
+  .useCasesContent {
+    padding-top: var(--padding-38xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .useCases {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+  .clientName {
+    padding-bottom: 118px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .menuContainer {
+    display: none;
+  }
+  .sloganContainer {
+    width: 0;
+  }
+  .pageContentParent {
+    padding-top: var(--padding-3xl);
+    padding-bottom: 27px;
+  }
+  .main,
+  .pageContentParent,
+  .teamsContent {
+    box-sizing: border-box;
+  }
+  .main {
+    padding-bottom: var(--padding-56xl);
+  }
+  .teamsContent {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+  }
+  .integrations {
+    min-width: 100%;
+  }
+  .platformContent {
+    gap: 67px;
+  }
+  .thePlatformsPlatformParent {
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .quoteContentIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .companyInfo {
+    flex: 1;
+  }
+  .testimonial {
+    flex-wrap: wrap;
+    gap: var(--gap-24xl);
+  }
+  .teamworkVisual {
+    gap: var(--gap-45xl);
+  }
+  .footerColumnTwo,
+  .frameWrapper1 {
+    flex: 1;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .promage {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .userActionButtons,
+  .userActionButtons1 {
+    display: none;
+  }
+  .menu1Icon {
+    display: flex;
+  }
+  .auth {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .header {
+    gap: var(--gap-3xl);
+  }
+  .oneAppTo {
+    font-size: var(--font-size-32xl);
+    line-height: 64px;
+  }
+  .productivitySubtitle {
+    gap: var(--gap-xl);
+  }
+  .productivityDescriptionWrapper {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .bodyChild {
+    min-width: 100%;
+  }
+  .body {
+    gap: var(--gap-xl);
+  }
+  .pageContent {
+    gap: var(--gap-21xl);
+  }
+  .main {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .getWorkDone {
+    font-size: var(--font-size-24xl);
+    line-height: 54px;
+  }
+  .maximizeContentWrapper {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .bringAllOf {
+    font-size: var(--font-size-24xl);
+    line-height: 54px;
+  }
+  .integrationsDescription {
+    gap: var(--gap-7xl);
+  }
+  .logoRowsParent {
+    min-width: 100%;
+  }
+  .platformContent {
+    gap: 33px;
+  }
+  .thePlatformsPlatformParent {
+    padding-left: var(--padding-72xl);
+    padding-right: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+  .useCases1 {
+    font-size: var(--font-size-24xl);
+    line-height: 52px;
+  }
+  .useCaseCards,
+  .useCasePairs,
+  .useCasePairs1,
+  .useCasesContent {
+    gap: var(--gap-5xl);
+  }
+  .useCasesContent {
+    padding: 37px var(--padding-72xl) var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .useCases {
+    padding-bottom: 59px;
+    box-sizing: border-box;
+  }
+  .whatOurClients {
+    font-size: var(--font-size-24xl);
+    line-height: 52px;
+  }
+  .companyInfo {
+    min-width: 100%;
+  }
+  .weWouldntHave {
+    font-size: var(--font-size-7xl);
+    line-height: 40px;
+  }
+  .resourcesLinks {
+    gap: var(--gap-8xl);
+  }
+  .teamworkButton,
+  .testimonial {
+    gap: var(--gap-2xl);
+  }
+  .seeEverythingThe {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .teamworkContent {
+    gap: var(--gap-5xl);
+  }
+  .teamworkVisual {
+    gap: var(--gap-13xl);
+  }
+  .clientName {
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+  .promage1 {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .footerColumnTwo {
+    flex-wrap: wrap;
+    gap: 47px;
+    min-width: 100%;
+  }
+  .frameParent2 {
+    gap: var(--gap-36xl);
+  }
+  .footer {
+    padding-top: 43px;
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) and (max-width: 420px) {
+  .promage {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .userActionButtons,
+  .userActionButtons1 {
+    display: none;
+  }
+  .menu1Icon {
+    display: flex;
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+    cursor: default;
+  }
+  .auth {
+    display: none;
+  }
+  .header {
+    width: 857px;
+  }
+  .oneAppTo {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .manageAllYour {
+    font-size: var(--body-medium-18-size);
+    line-height: 26px;
+  }
+  .buttonLarge {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .pageContent {
+    gap: var(--gap-xl);
+  }
+  .pageContentParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .beAmongThe,
+  .maximiseProductivity {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .maximiseProductivity {
+    line-height: 23px;
+  }
+  .getWorkDone {
+    font-size: var(--logo-bold-32-size);
+    line-height: 40px;
+  }
+  .withProjectManagement {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .dashboard1Icon {
+    max-width: 1;
+  }
+  .thePlatformsPlatformContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .bringAllOf {
+    font-size: var(--logo-bold-32-size);
+    line-height: 40px;
+  }
+  .downloads,
+  .import,
+  .promageCanIntegrate {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .importActions {
+    flex-wrap: wrap;
+  }
+  .clickapps,
+  .clickapps1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .clickAppOptionsParent {
+    flex-wrap: wrap;
+  }
+  .importOptionsParent {
+    gap: var(--gap-5xl);
+  }
+  .primaryButton2 {
+    font-size: var(--font-size-base);
+  }
+  .downloadLogos,
+  .frameParent,
+  .slackLogos {
+    flex-wrap: wrap;
+  }
+  .logoRowsParent {
+    gap: var(--gap-lg);
+  }
+  .platformContent {
+    gap: 17px;
+  }
+  .thePlatformsPlatformParent {
+    padding: var(--padding-13xl) var(--padding-xl) var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .useCases1 {
+    font-size: var(--logo-bold-32-size);
+    line-height: 39px;
+  }
+  .employeeOnboarding {
+    font-size: var(--title2-size);
+    line-height: 36px;
+  }
+  .buildAScalableContainer {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .frameGroup {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .performanceGoal {
+    font-size: var(--title2-size);
+    line-height: 36px;
+  }
+  .trackEmployeePerformance {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .userPerformance1 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .performanceGoal1 {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .trackEmployeePerformance1 {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .frameContainer {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .employeeOnboarding1 {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .buildAScalable1 {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .frameParent1 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .primaryButton3 {
+    font-size: var(--font-size-base);
+  }
+  .useCasesContent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .whatOurClients {
+    font-size: var(--logo-bold-32-size);
+    line-height: 39px;
+  }
+  .kylerRoseContainer,
+  .weWouldntHave {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .kylerRoseContainer {
+    line-height: 29px;
+  }
+  .resourcesLinks {
+    min-width: 100%;
+  }
+  .seeEverythingThe {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .teamworkContent {
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .teamworkVisual {
+    gap: var(--gap-base);
+  }
+  .promage1 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .contact {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .yourNo1ProjectManagementTParent {
+    gap: var(--gap-6xl);
+  }
+  .frameWrapper1 {
+    min-width: 100%;
+  }
+  .company1,
+  .product,
+  .resources {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .frameParent2 {
+    gap: var(--gap-8xl);
+  }
+}

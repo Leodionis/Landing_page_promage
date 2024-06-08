@@ -1,0 +1,56 @@
+.order1Icon {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  object-fit: cover;
+}
+.order1Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.easyToOrder {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.youOnlyOrder {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.frameParent,
+.youOnlyOrderThroughTheAppWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.youOnlyOrderThroughTheAppWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 var(--padding-10xs);
+  font-size: var(--headline-size);
+  color: var(--text-light);
+}
+.frameParent {
+  width: 241px;
+  flex-direction: column;
+  gap: var(--gap-6xl-5);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .easyToOrder {
+    font-size: var(--title2-size);
+  }
+  .youOnlyOrder {
+    font-size: var(--font-size-base);
+  }
+}
