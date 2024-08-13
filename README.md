@@ -1,10 +1,7 @@
+# Landing Page Promage
 
-  # Landing Page UI Kit (Community) - 1
+## Deskripsi
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+**Landing Page Promage** adalah proyek desain halaman arahan yang dirancang untuk mempromosikan produk, layanan, atau kampanye tertentu. Desain ini fokus pada penyampaian pesan yang kuat melalui elemen visual yang menarik dan tata letak yang bersih dan responsif. Halaman ini dapat digunakan oleh perusahaan atau individu untuk meningkatkan kesadaran merek, menarik pelanggan potensial, atau mengarahkan pengunjung untuk melakukan tindakan tertentu seperti mendaftar atau membeli.
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+<img src="img" alt="Alt Text" width="3000"/>
